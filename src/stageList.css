@@ -1,0 +1,42 @@
+.stage {
+    margin: 0 auto;
+    display: flex;
+}
+
+.user-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+.name-volume-block {
+    display: block;
+    height: 10%;
+}
+
+.user-name {
+    text-align: center;
+    display: block;
+}
+
+.volume-line {
+    display: block;
+    position: relative;
+    width: 200px;
+    height: 2px;
+    background: red;
+    border-radius: 3px;
+}
+
+.user-avatar {
+    display: block;
+    position: relative;
+    height: 80%;
+}
+
+.avatar {
+    width: 120px;
+    height: auto;
+    border-radius: 50%;
+}

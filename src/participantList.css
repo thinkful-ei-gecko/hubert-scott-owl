@@ -1,0 +1,38 @@
+.participants {
+    display: block;
+    width: 20%;
+    height: 90%;
+    margin: 0;
+}
+
+.participant-list {
+    list-style: none;
+}
+
+.avatar {
+    width: 80px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.participant-name {
+
+}
+
+.participant {
+    display: flex;
+}
+
+.in-session {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: green;
+}
+
+.left-session {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: grey;
+}
