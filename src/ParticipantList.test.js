@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import ParticipantList from './ParticipantList'
-// import renderer from 'react-test-renderer'
+import renderer from 'react-test-renderer';
 
 
 describe('<ParticipantList />', () => {
@@ -31,27 +31,27 @@ describe('<ParticipantList />', () => {
 
 });
 
-// describe('<ParticipantList />', () => {
-//     it('renders UI correctly', () => {
-//         const tree = renderer.create(<ParticipantList participants = {[
-//             {
-//             id: 4,
-//             name: 'Frank Runciman',
-//             avatar:
-//                 'https://robohash.org/etexercitationemassumenda.jpg?size=200x200&set=set1',
-//             inSession: true,
-//             onStage: false
-//         },
-//         {
-//             id: 5,
-//             name: 'Ashla Attwool',
-//             avatar:
-//                 'https://robohash.org/iustodoloremqueinventore.jpg?size=200x200&set=set1',
-//             inSession: true,
-//             onStage: true
-//         }
-//     ]} />).toJSON();
+describe('<ParticipantList />', () => {
+    it('renders UI correctly', () => {
+        const tree = renderer.create(<ParticipantList participants = {[
+            {
+            id: 4,
+            name: 'Frank Runciman',
+            avatar:
+                'https://robohash.org/etexercitationemassumenda.jpg?size=200x200&set=set1',
+            inSession: true,
+            onStage: false
+        },
+        {
+            id: 5,
+            name: 'Ashla Attwool',
+            avatar:
+                'https://robohash.org/iustodoloremqueinventore.jpg?size=200x200&set=set1',
+            inSession: true,
+            onStage: true
+        }
+    ]} />).toJSON();
     
-//     expect(tree).toMatchSnapshot();
-//     });
-// });
+    expect(tree).toMatchSnapshot();
+    });
+});

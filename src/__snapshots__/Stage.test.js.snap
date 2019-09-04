@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Stage /> renders UI correctly 1`] = `
+<div
+  className="user-info"
+>
+  <div
+    className="user-name"
+  >
+    frank
+  </div>
+  <div
+    className="volume-line"
+  />
+  <i
+    className="fas fa-volume-up"
+  />
+  <i
+    className="fas fa-search"
+  />
+  <div
+    className="user-avatar"
+  >
+    <img
+      alt="user avatar"
+      src="https://robohash.org/iustodoloremqueinventore.jpg?size=200x200&set=set1"
+    />
+  </div>
+</div>
+`;

@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ParticipantList /> renders UI correctly 1`] = `
+<ul
+  className="participant-list"
+>
+  <li
+    className="participant"
+  >
+    <img
+      alt="placeholder"
+      src="https://robohash.org/etexercitationemassumenda.jpg?size=200x200&set=set1"
+    />
+    <h3>
+      Frank Runciman
+    </h3>
+    <div
+      className="in-session"
+    />
+    <p>
+      
+    </p>
+  </li>
+  <li
+    className="participant"
+  >
+    <img
+      alt="placeholder"
+      src="https://robohash.org/iustodoloremqueinventore.jpg?size=200x200&set=set1"
+    />
+    <h3>
+      Ashla Attwool
+    </h3>
+    <div
+      className="in-session"
+    />
+    <p>
+      on stage
+    </p>
+  </li>
+</ul>
+`;

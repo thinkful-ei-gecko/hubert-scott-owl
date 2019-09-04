@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CurrentUser /> renders UI correctly 1`] = `
+<div
+  className="current-user"
+>
+  <div
+    className="volume-line"
+  />
+  <div
+    className="user-avatar"
+  >
+    <img
+      alt="user avatar"
+      src="https://robohash.org/iustodoloremqueinventore.jpg?size=200x200&set=set1"
+    />
+  </div>
+</div>
+`;

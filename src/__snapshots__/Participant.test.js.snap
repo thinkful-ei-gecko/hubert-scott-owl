@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Participant /> renders UI correctly 1`] = `
+<li
+  className="participant"
+>
+  <img
+    alt="placeholder"
+    src="https://robohash.org/iustodoloremqueinventore.jpg?size=200x200&set=set1"
+  />
+  <h3>
+    frank
+  </h3>
+  <div
+    className="in-session"
+  />
+  <p>
+    on stage
+  </p>
+</li>
+`;

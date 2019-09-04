@@ -9,5 +9,5 @@ export default function ParticipantList(props) {
         <ul className="participant-list">
             {participants}
         </ul>
-    )
+    );
 }

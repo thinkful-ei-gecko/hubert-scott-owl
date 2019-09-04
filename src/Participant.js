@@ -10,5 +10,5 @@ export default function Participant(props) {
             <div className={props.inSession ? 'in-session': 'left-session'}></div>
             <p>{props.onStage ? 'on stage' : ''}</p>
         </li>
-    )
+    );
 }
