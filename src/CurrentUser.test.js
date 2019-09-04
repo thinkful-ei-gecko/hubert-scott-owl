@@ -2,7 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import CurrentUser from './CurrentUser';
 import renderer from 'react-test-renderer';
-import { exportAllDeclaration } from '@babel/types';
 
 describe('<CurrentUser />', () => {
     it('renders without crashing', () => {

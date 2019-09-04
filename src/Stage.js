@@ -10,9 +10,7 @@ export default function Stage(props) {
                 <div className="volume-line"></div>
                 <i className="fas fa-volume-up"></i>
                 <i className="fas fa-search"></i>
-            </div>
-            <div className="user-avatar">
-                <img src={props.avatar} alt="user avatar" className="avatar" />
+                <img src={props.avatar} alt="user avatar" className="stage-avatar" />
             </div>
         </div>
     )

@@ -3,20 +3,22 @@
     width: 20%;
     height: 90%;
     margin: 0;
+    overflow-y: scroll;
 }
 
 .participant-list {
     list-style: none;
+    height: 100vh;
 }
 
 .avatar {
-    width: 80px;
-    height: auto;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
 }
 
-.participant-name {
-
+.participant-info {
+    display: block;
 }
 
 .participant {
